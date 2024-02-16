@@ -1,0 +1,264 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Inconsolata', monospace;
+    /* background-color: rgb(245, 238, 225); */
+    background-color: rgb(238, 219, 209);
+}
+
+.hi {
+    position: absolute;
+    top: 20%;
+    left: 33%;
+    transform: translate(-50%, -50%);
+    font-weight: 300;
+    font-size: 7rem;
+    background: linear-gradient(to right,
+            rgb(0, 0, 0) 50%,
+            rgb(255, 255, 255) 50%);
+    background-size: 200% 100%;
+    background-position-x: 100%;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* .intro{
+    height: 100vh;
+    background-color: white;
+    z-index: -1;
+} */
+
+.intro h1 {
+    font-size: 25rem;
+    font-weight: 500;
+    background: linear-gradient(to right,
+            rgb(0, 0, 0) 50%,
+            rgb(255, 255, 255) 50%);
+    background-size: 200% 100%;
+    background-position-x: 100%;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.intro img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.firstimg {
+    position: absolute;
+    width: 30%;
+    top: 2%;
+    left: 40%;
+}
+
+.secondimg {
+    position: absolute;
+    width: 30%;
+    top: 55%;
+    left: 17%;
+}
+
+.thirdimg {
+    position: absolute;
+    width: 30%;
+    top: 55%;
+    left: 65%;
+}
+
+.p {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+.e1 {
+    position: absolute;
+    top: 50%;
+    left: 37%;
+    transform: translate(-50%, -50%);
+}
+
+.t {
+    position: absolute;
+    top: 50%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+}
+
+
+.e2 {
+    position: absolute;
+    top: 50%;
+    left: 61%;
+    transform: translate(-50%, -50%);
+}
+
+
+.r {
+    position: absolute;
+    top: 50%;
+    left: 73%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-break {
+    background-color: black;
+    height: 10px;
+    width: 20%;
+    position: absolute;
+    border-radius: 20%;
+    top: 97%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 10px;
+
+}
+
+.details {
+    margin-top: 30px;
+}
+
+.details h3 {
+    background: linear-gradient(to right,
+            rgb(0, 0, 0) 50%,
+            rgb(238, 219, 209) 50%);
+    background-size: 200% 100%;
+    background-position-x: 100%;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.about {
+    margin-top: 100vh;
+    display: flex;
+}
+
+.about h4 {
+    padding: 30px;
+}
+
+.about h1 {
+    padding: 30px;
+    font-size: 3.2rem;
+    width: 70%;
+    margin-left: 30px;
+    /* background: linear-gradient(to right,
+            rgb(0, 0, 0) 50%,
+            rgb(255, 255, 255) 50%);
+    background-size: 200% 100%;
+    background-position-x: 100%;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    margin-top: 70px;
+}
+
+.details {
+    width: 80%;
+    padding: 10px;
+    margin-top: 40vh;
+    transform: translateX(-70px);
+}
+
+.about-img-wrap {
+    width: 100%;
+    padding: 30px;
+}
+
+.about-img {
+    width: 100%;
+}
+/* 
+.works-imgs{
+    display: flex;
+}
+
+
+.line1 h1{
+    font-size: 4rem;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.line1 img,.line2 img{
+    width: 100%;
+    border-radius: 10px;
+    padding: 80px;
+} */
+
+.works {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.myWorks {
+    font-size: 5rem;
+    padding: 10px;
+    z-index: 4;
+    width: 100%;
+    margin-left: 550px;
+    max-width: 99vw;
+    overflow-x: hidden;
+}
+
+.viewall{
+    margin-top: 36.5rem;
+    width: 50%;
+    font-size: 3rem;
+    margin-left: 500px;
+    overflow-x: hidden;
+    max-width: 99vw;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    width: 60vw;
+    padding: 10px;
+    max-width: 99vw;
+}
+
+.images img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 99vw;
+}
+
+.work1{
+    z-index: 3;
+}
+
+.work2{
+    z-index: 2;
+}
+
+.work3{
+    z-index: 1;
+}
+
+.quotes{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 99vw;
+}
